@@ -1,0 +1,204 @@
+<mxfile host="65bd71144e">
+    <diagram id="fqxXJ3uy9Zd_NtkItkxH" name="Page-1">
+        <mxGraphModel dx="2029" dy="1238" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#FFFFFF" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeWidth=3;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;b&gt;نحتاج الى تخزين البيانات؟&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="85" y="-163" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;targetPerimeterSpacing=8;strokeWidth=3;startArrow=none;" edge="1" parent="1" source="40" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeWidth=3;" edge="1" parent="1" source="3" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;b&gt;هل البيانات سوف تتغير ؟&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=3;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="385" y="-153" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;div style=&quot;direction: rtl;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;نستخدم متغير const او let&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=3;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="-150" width="139" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;targetPerimeterSpacing=8;strokeWidth=3;startArrow=none;" edge="1" parent="1" source="43">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="662" y="23" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeWidth=3;" edge="1" parent="1" source="7" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;div style=&quot;direction: rtl;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;هل يمكن تخزين من خلال state او prop موجوده اصلا في الكمبوننت&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=3;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="345.5" y="-14" width="195" height="72" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;div style=&quot;direction: rtl;&quot;&gt;&lt;b&gt;نستخدم derive state&lt;/b&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=3;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+                    <mxGeometry x="662.5" y="-9" width="195" height="72" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;endArrow=open;startSize=14;endSize=14;targetPerimeterSpacing=8;startArrow=none;" edge="1" parent="1" source="46" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;endArrow=open;startSize=14;endSize=14;targetPerimeterSpacing=8;startArrow=none;" edge="1" parent="1" source="48" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;h3 style=&quot;direction: rtl;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;هل نحتاج الى re-render للكمبوننت؟&lt;/b&gt;&lt;/span&gt;&lt;/h3&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=3;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="347.5" y="147" width="195" height="87" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;div style=&quot;direction: rtl;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;نستخدم Ref (useRef)&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=3;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+                    <mxGeometry x="707" y="160.5" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="18" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;endArrow=open;startSize=14;endSize=14;targetPerimeterSpacing=8;startArrow=none;" edge="1" parent="1" source="50" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;endArrow=open;startSize=14;endSize=14;targetPerimeterSpacing=8;startArrow=none;" edge="1" parent="1" source="56" target="24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;h3&gt;فقط تستخدم بداخل الكمبوننت نفسه؟&lt;/h3&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=3;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="352.5" y="540.5" width="185" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&lt;h3&gt;نقوم بإستخدامها داخل الكبموننت نفسة&lt;/h3&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=3;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+                    <mxGeometry x="694" y="537" width="186" height="77" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;endArrow=open;startSize=14;endSize=14;targetPerimeterSpacing=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;" edge="1" parent="1" source="58" target="26">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="443" y="904" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;endArrow=open;startSize=14;endSize=14;targetPerimeterSpacing=8;startArrow=none;" edge="1" parent="1" source="52" target="29">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&lt;h3 style=&quot;direction: rtl;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ايضا هل يقوم بإستخدامها child component?&lt;/span&gt;&lt;/h3&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=3;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="353.25" y="749" width="179.5" height="76" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;endArrow=open;startSize=14;endSize=14;targetPerimeterSpacing=8;startArrow=none;" edge="1" parent="1" source="54" target="31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="26" target="33">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;h3&gt;هل سوف تستخدم من خلال كمبوننت منفصل؟&lt;/h3&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=3;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="351.5" y="949" width="183" height="86" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="&lt;h3 style=&quot;direction: rtl;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;نمررها من خلال props&lt;/span&gt;&lt;/h3&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=3;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+                    <mxGeometry x="689.5" y="747" width="190.5" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;h3 style=&quot;direction: rtl;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;نقوم بوضع الـ state بداخل parent common parent component&lt;/span&gt;&lt;/h3&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=3;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="947" width="382.5" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="&lt;div style=&quot;direction: rtl;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;نستخدم Globa state&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=3;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="962" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startSize=14;endSize=14;sourcePerimeterSpacing=8;strokeWidth=3;" edge="1" parent="1" source="3" target="40">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="513.0000000000005" y="-123" as="sourcePoint"/>
+                        <mxPoint x="617" y="-123" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="&lt;h3&gt;لا&lt;/h3&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+                    <mxGeometry x="529" y="-149" width="53" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="&lt;h3&gt;نعم&lt;/h3&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="416.5" y="-90" width="53" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startSize=14;endSize=14;sourcePerimeterSpacing=8;strokeWidth=3;" edge="1" parent="1" source="7" target="43">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="548.5" y="18.532863849765363" as="sourcePoint"/>
+                        <mxPoint x="656" y="15" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="&lt;h3&gt;نعم&lt;/h3&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="566" y="-4" width="53" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="&lt;h3&gt;لا&lt;/h3&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+                    <mxGeometry x="418.5" y="58" width="53" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;endArrow=none;startSize=14;endSize=14;sourcePerimeterSpacing=8;" edge="1" parent="1" source="12" target="46">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="550.5" y="190.50000000000023" as="sourcePoint"/>
+                        <mxPoint x="698.9999999999995" y="190.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" value="&lt;h3&gt;لا&lt;/h3&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="164.5" width="53" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;endArrow=none;startSize=14;endSize=14;sourcePerimeterSpacing=8;" edge="1" parent="1" source="12" target="48">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="445.7686567164178" y="242" as="sourcePoint"/>
+                        <mxPoint x="447.3358208955224" y="347" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="&lt;h3&gt;نعم&lt;/h3&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="418.5" y="263.02" width="53" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;endArrow=none;startSize=14;endSize=14;sourcePerimeterSpacing=8;" edge="1" parent="1" source="20" target="50">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="543.5" y="575.5" as="sourcePoint"/>
+                        <mxPoint x="685.9999999999995" y="575.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="&lt;h3&gt;نعم&lt;/h3&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="588" y="552" width="53" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;endArrow=none;startSize=14;endSize=14;sourcePerimeterSpacing=8;" edge="1" parent="1" source="24" target="52">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="540.75" y="787" as="sourcePoint"/>
+                        <mxPoint x="681.4999999999995" y="787" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" value="&lt;h3&gt;نعم&lt;/h3&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="585" y="761" width="53" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;endArrow=none;startSize=14;endSize=14;sourcePerimeterSpacing=8;" edge="1" parent="1" source="26" target="54">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="542.5" y="992.5508650519032" as="sourcePoint"/>
+                        <mxPoint x="604.9999999999995" y="992.8968858131489" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="&lt;h3&gt;نعم&lt;/h3&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="561" y="966" width="53" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;endArrow=none;startSize=14;endSize=14;sourcePerimeterSpacing=8;" edge="1" parent="1" source="20" target="56">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="443.00000000000045" y="618.5" as="sourcePoint"/>
+                        <mxPoint x="443" y="741" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" value="&lt;h3&gt;لا&lt;/h3&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+                    <mxGeometry x="417" y="641" width="52" height="58" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;endArrow=none;startSize=14;endSize=14;sourcePerimeterSpacing=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="24" target="58">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="443" y="825" as="sourcePoint"/>
+                        <mxPoint x="443" y="941" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" value="&lt;h3&gt;لا&lt;/h3&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+                    <mxGeometry x="417" y="842" width="52" height="58" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="&lt;h3&gt;لا&lt;/h3&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="964" width="52" height="58" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=default;curved=1;shape=link;" edge="1" parent="1">
+                    <mxGeometry width="140" relative="1" as="geometry">
+                        <mxPoint x="-342" y="394" as="sourcePoint"/>
+                        <mxPoint x="919" y="394" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="&lt;h3 style=&quot;direction: rtl;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;نستخدم state (useState) جديدة&amp;nbsp;&lt;/span&gt;&lt;/h3&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=3;rotation=0;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="355" width="196" height="73" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="&lt;h1 style=&quot;direction: rtl;&quot;&gt;متى نستخدم useState&lt;/h1&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=3;" vertex="1" parent="1">
+                    <mxGeometry x="-269" y="297" width="251" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="&lt;h1 style=&quot;direction: rtl;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;وين يتم استخدام useState&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-269" y="407" width="251" height="73" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
